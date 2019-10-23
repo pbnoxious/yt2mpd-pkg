@@ -5,7 +5,7 @@ pkgdesc="A cli program that fetches audio tracks from youtube-videos for usage i
 arch=('any')
 url="https://github.com/pbnoxious/${pkgname}"
 license=('GPL3')
-depends=('python' 'youtube-dl')
+depends=('python' 'youtube-dl' 'mpc')
 source=(${url}/archive/v${pkgver}.tar.gz)
 md5sums=('2ca66054bf1fc7e5f04be6f052ddb19c')
 
