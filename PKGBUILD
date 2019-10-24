@@ -7,7 +7,7 @@ url="https://github.com/pbnoxious/${pkgname}"
 license=('GPL3')
 depends=('python' 'youtube-dl' 'mpc')
 source=(${url}/archive/v${pkgver}.tar.gz)
-md5sums=('2ca66054bf1fc7e5f04be6f052ddb19c')
+md5sums=('428a3b75976d57c91e96fe1ed6a4a525')
 
 package() {
   cd ${pkgname}-${pkgver}
